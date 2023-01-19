@@ -128,6 +128,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="adminpage.resx">
+      <DependentUpon>adminpage.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="info.resx">
       <DependentUpon>info.vb</DependentUpon>
     </EmbeddedResource>
