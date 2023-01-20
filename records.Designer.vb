@@ -24,24 +24,24 @@ Partial Class emprecords
     Private Sub InitializeComponent()
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
         Me.btnAddEmp = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.btnUpdEmp = New System.Windows.Forms.Button()
+        Me.btnDelEmp = New System.Windows.Forms.Button()
         Me.ListView1 = New System.Windows.Forms.ListView()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtbxFrstname = New System.Windows.Forms.TextBox()
+        Me.txtbxMidname = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
+        Me.txtbxSurname = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
+        Me.txtbxEmail = New System.Windows.Forms.TextBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
+        Me.txtbxContNum = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.TextBox6 = New System.Windows.Forms.TextBox()
+        Me.txtbxEmpNo = New System.Windows.Forms.TextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.combGender = New System.Windows.Forms.ComboBox()
         Me.SuspendLayout()
         '
         'btnAddEmp
@@ -58,33 +58,33 @@ Partial Class emprecords
         Me.btnAddEmp.Text = "Add"
         Me.btnAddEmp.UseVisualStyleBackColor = False
         '
-        'Button1
+        'btnUpdEmp
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Button1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button1.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(465, 574)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(100, 50)
-        Me.Button1.TabIndex = 7
-        Me.Button1.Text = "Update"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.btnUpdEmp.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.btnUpdEmp.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnUpdEmp.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnUpdEmp.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnUpdEmp.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
+        Me.btnUpdEmp.Location = New System.Drawing.Point(465, 574)
+        Me.btnUpdEmp.Name = "btnUpdEmp"
+        Me.btnUpdEmp.Size = New System.Drawing.Size(100, 50)
+        Me.btnUpdEmp.TabIndex = 7
+        Me.btnUpdEmp.Text = "Update"
+        Me.btnUpdEmp.UseVisualStyleBackColor = False
         '
-        'Button2
+        'btnDelEmp
         '
-        Me.Button2.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Button2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button2.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.Button2.Location = New System.Drawing.Point(679, 574)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(100, 50)
-        Me.Button2.TabIndex = 8
-        Me.Button2.Text = "Delete"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.btnDelEmp.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.btnDelEmp.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnDelEmp.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnDelEmp.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnDelEmp.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
+        Me.btnDelEmp.Location = New System.Drawing.Point(679, 574)
+        Me.btnDelEmp.Name = "btnDelEmp"
+        Me.btnDelEmp.Size = New System.Drawing.Size(100, 50)
+        Me.btnDelEmp.TabIndex = 8
+        Me.btnDelEmp.Text = "Delete"
+        Me.btnDelEmp.UseVisualStyleBackColor = False
         '
         'ListView1
         '
@@ -123,31 +123,31 @@ Partial Class emprecords
         Me.Label2.TabIndex = 11
         Me.Label2.Text = "First name:"
         '
-        'TextBox1
+        'txtbxFrstname
         '
-        Me.TextBox1.BackColor = System.Drawing.Color.White
-        Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox1.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TextBox1.Font = New System.Drawing.Font("Trebuchet MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.TextBox1.Location = New System.Drawing.Point(149, 370)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(300, 32)
-        Me.TextBox1.TabIndex = 12
-        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.txtbxFrstname.BackColor = System.Drawing.Color.White
+        Me.txtbxFrstname.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtbxFrstname.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.txtbxFrstname.Font = New System.Drawing.Font("Trebuchet MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtbxFrstname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.txtbxFrstname.Location = New System.Drawing.Point(149, 370)
+        Me.txtbxFrstname.Name = "txtbxFrstname"
+        Me.txtbxFrstname.Size = New System.Drawing.Size(300, 32)
+        Me.txtbxFrstname.TabIndex = 12
+        Me.txtbxFrstname.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'TextBox2
+        'txtbxMidname
         '
-        Me.TextBox2.BackColor = System.Drawing.Color.White
-        Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox2.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TextBox2.Font = New System.Drawing.Font("Trebuchet MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.TextBox2.Location = New System.Drawing.Point(149, 446)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(300, 32)
-        Me.TextBox2.TabIndex = 14
-        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.txtbxMidname.BackColor = System.Drawing.Color.White
+        Me.txtbxMidname.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtbxMidname.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.txtbxMidname.Font = New System.Drawing.Font("Trebuchet MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtbxMidname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.txtbxMidname.Location = New System.Drawing.Point(149, 446)
+        Me.txtbxMidname.Name = "txtbxMidname"
+        Me.txtbxMidname.Size = New System.Drawing.Size(300, 32)
+        Me.txtbxMidname.TabIndex = 14
+        Me.txtbxMidname.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label3
         '
@@ -161,18 +161,18 @@ Partial Class emprecords
         Me.Label3.TabIndex = 13
         Me.Label3.Text = "Middle name:"
         '
-        'TextBox3
+        'txtbxSurname
         '
-        Me.TextBox3.BackColor = System.Drawing.Color.White
-        Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox3.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.TextBox3.Font = New System.Drawing.Font("Trebuchet MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.TextBox3.Location = New System.Drawing.Point(149, 523)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(300, 32)
-        Me.TextBox3.TabIndex = 16
-        Me.TextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.txtbxSurname.BackColor = System.Drawing.Color.White
+        Me.txtbxSurname.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtbxSurname.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.txtbxSurname.Font = New System.Drawing.Font("Trebuchet MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtbxSurname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.txtbxSurname.Location = New System.Drawing.Point(149, 523)
+        Me.txtbxSurname.Name = "txtbxSurname"
+        Me.txtbxSurname.Size = New System.Drawing.Size(300, 32)
+        Me.txtbxSurname.TabIndex = 16
+        Me.txtbxSurname.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label4
         '
@@ -186,18 +186,18 @@ Partial Class emprecords
         Me.Label4.TabIndex = 15
         Me.Label4.Text = "Surname:"
         '
-        'TextBox4
+        'txtbxEmail
         '
-        Me.TextBox4.BackColor = System.Drawing.Color.White
-        Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox4.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
-        Me.TextBox4.Font = New System.Drawing.Font("Trebuchet MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.TextBox4.Location = New System.Drawing.Point(588, 523)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(300, 32)
-        Me.TextBox4.TabIndex = 22
-        Me.TextBox4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.txtbxEmail.BackColor = System.Drawing.Color.White
+        Me.txtbxEmail.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtbxEmail.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
+        Me.txtbxEmail.Font = New System.Drawing.Font("Trebuchet MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtbxEmail.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.txtbxEmail.Location = New System.Drawing.Point(588, 523)
+        Me.txtbxEmail.Name = "txtbxEmail"
+        Me.txtbxEmail.Size = New System.Drawing.Size(300, 32)
+        Me.txtbxEmail.TabIndex = 22
+        Me.txtbxEmail.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label5
         '
@@ -211,18 +211,18 @@ Partial Class emprecords
         Me.Label5.TabIndex = 21
         Me.Label5.Text = "Email:"
         '
-        'TextBox5
+        'txtbxContNum
         '
-        Me.TextBox5.BackColor = System.Drawing.Color.White
-        Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox5.Font = New System.Drawing.Font("Trebuchet MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.TextBox5.Location = New System.Drawing.Point(588, 446)
-        Me.TextBox5.MaxLength = 11
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(300, 32)
-        Me.TextBox5.TabIndex = 21
-        Me.TextBox5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.txtbxContNum.BackColor = System.Drawing.Color.White
+        Me.txtbxContNum.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtbxContNum.Font = New System.Drawing.Font("Trebuchet MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtbxContNum.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.txtbxContNum.Location = New System.Drawing.Point(588, 446)
+        Me.txtbxContNum.MaxLength = 11
+        Me.txtbxContNum.Name = "txtbxContNum"
+        Me.txtbxContNum.Size = New System.Drawing.Size(300, 32)
+        Me.txtbxContNum.TabIndex = 21
+        Me.txtbxContNum.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label6
         '
@@ -236,19 +236,19 @@ Partial Class emprecords
         Me.Label6.TabIndex = 19
         Me.Label6.Text = "Contact number:"
         '
-        'TextBox6
+        'txtbxEmpNo
         '
-        Me.TextBox6.BackColor = System.Drawing.Color.White
-        Me.TextBox6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.TextBox6.Enabled = False
-        Me.TextBox6.Font = New System.Drawing.Font("Trebuchet MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.TextBox6.Location = New System.Drawing.Point(588, 370)
-        Me.TextBox6.Name = "TextBox6"
-        Me.TextBox6.ReadOnly = True
-        Me.TextBox6.Size = New System.Drawing.Size(176, 32)
-        Me.TextBox6.TabIndex = 18
-        Me.TextBox6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.txtbxEmpNo.BackColor = System.Drawing.Color.White
+        Me.txtbxEmpNo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.txtbxEmpNo.Enabled = False
+        Me.txtbxEmpNo.Font = New System.Drawing.Font("Trebuchet MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtbxEmpNo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.txtbxEmpNo.Location = New System.Drawing.Point(588, 370)
+        Me.txtbxEmpNo.Name = "txtbxEmpNo"
+        Me.txtbxEmpNo.ReadOnly = True
+        Me.txtbxEmpNo.Size = New System.Drawing.Size(176, 32)
+        Me.txtbxEmpNo.TabIndex = 18
+        Me.txtbxEmpNo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label7
         '
@@ -274,20 +274,20 @@ Partial Class emprecords
         Me.Label8.TabIndex = 23
         Me.Label8.Text = "Gender:"
         '
-        'ComboBox1
+        'combGender
         '
-        Me.ComboBox1.BackColor = System.Drawing.Color.White
-        Me.ComboBox1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox1.Font = New System.Drawing.Font("Trebuchet MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.ItemHeight = 27
-        Me.ComboBox1.Items.AddRange(New Object() {"MALE", "FEMALE"})
-        Me.ComboBox1.Location = New System.Drawing.Point(789, 370)
-        Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(99, 35)
-        Me.ComboBox1.TabIndex = 25
+        Me.combGender.BackColor = System.Drawing.Color.White
+        Me.combGender.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.combGender.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.combGender.Font = New System.Drawing.Font("Trebuchet MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.combGender.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.combGender.FormattingEnabled = True
+        Me.combGender.ItemHeight = 27
+        Me.combGender.Items.AddRange(New Object() {"MALE", "FEMALE"})
+        Me.combGender.Location = New System.Drawing.Point(789, 370)
+        Me.combGender.Name = "combGender"
+        Me.combGender.Size = New System.Drawing.Size(99, 35)
+        Me.combGender.TabIndex = 25
         '
         'emprecords
         '
@@ -295,24 +295,24 @@ Partial Class emprecords
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Controls.Add(Me.ComboBox1)
+        Me.Controls.Add(Me.combGender)
         Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.TextBox4)
+        Me.Controls.Add(Me.txtbxEmail)
         Me.Controls.Add(Me.Label5)
-        Me.Controls.Add(Me.TextBox5)
+        Me.Controls.Add(Me.txtbxContNum)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.TextBox6)
+        Me.Controls.Add(Me.txtbxEmpNo)
         Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.TextBox3)
+        Me.Controls.Add(Me.txtbxSurname)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.txtbxMidname)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.txtbxFrstname)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ListView1)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnDelEmp)
+        Me.Controls.Add(Me.btnUpdEmp)
         Me.Controls.Add(Me.btnAddEmp)
         Me.DoubleBuffered = True
         Me.Font = New System.Drawing.Font("Trebuchet MS", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -327,22 +327,22 @@ Partial Class emprecords
 
     Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
     Friend WithEvents btnAddEmp As Button
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
+    Friend WithEvents btnUpdEmp As Button
+    Friend WithEvents btnDelEmp As Button
     Friend WithEvents ListView1 As ListView
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents TextBox1 As TextBox
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents txtbxFrstname As TextBox
+    Friend WithEvents txtbxMidname As TextBox
     Friend WithEvents Label3 As Label
-    Friend WithEvents TextBox3 As TextBox
+    Friend WithEvents txtbxSurname As TextBox
     Friend WithEvents Label4 As Label
-    Friend WithEvents TextBox4 As TextBox
+    Friend WithEvents txtbxEmail As TextBox
     Friend WithEvents Label5 As Label
-    Friend WithEvents TextBox5 As TextBox
+    Friend WithEvents txtbxContNum As TextBox
     Friend WithEvents Label6 As Label
-    Friend WithEvents TextBox6 As TextBox
+    Friend WithEvents txtbxEmpNo As TextBox
     Friend WithEvents Label7 As Label
     Friend WithEvents Label8 As Label
-    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents combGender As ComboBox
 End Class
