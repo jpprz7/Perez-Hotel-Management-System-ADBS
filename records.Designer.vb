@@ -51,7 +51,7 @@ Partial Class emprecords
         Me.btnAddEmp.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnAddEmp.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAddEmp.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.btnAddEmp.Location = New System.Drawing.Point(252, 576)
+        Me.btnAddEmp.Location = New System.Drawing.Point(252, 574)
         Me.btnAddEmp.Name = "btnAddEmp"
         Me.btnAddEmp.Size = New System.Drawing.Size(100, 50)
         Me.btnAddEmp.TabIndex = 6
@@ -65,7 +65,7 @@ Partial Class emprecords
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(465, 576)
+        Me.Button1.Location = New System.Drawing.Point(465, 574)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(100, 50)
         Me.Button1.TabIndex = 7
@@ -79,7 +79,7 @@ Partial Class emprecords
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button2.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.Button2.Location = New System.Drawing.Point(679, 576)
+        Me.Button2.Location = New System.Drawing.Point(679, 574)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(100, 50)
         Me.Button2.TabIndex = 8
@@ -168,7 +168,7 @@ Partial Class emprecords
         Me.TextBox3.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.TextBox3.Font = New System.Drawing.Font("Trebuchet MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.TextBox3.Location = New System.Drawing.Point(149, 526)
+        Me.TextBox3.Location = New System.Drawing.Point(149, 523)
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(300, 32)
         Me.TextBox3.TabIndex = 16
@@ -180,7 +180,7 @@ Partial Class emprecords
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(145, 499)
+        Me.Label4.Location = New System.Drawing.Point(145, 496)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(90, 24)
         Me.Label4.TabIndex = 15
@@ -193,7 +193,7 @@ Partial Class emprecords
         Me.TextBox4.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
         Me.TextBox4.Font = New System.Drawing.Font("Trebuchet MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.TextBox4.Location = New System.Drawing.Point(588, 526)
+        Me.TextBox4.Location = New System.Drawing.Point(588, 523)
         Me.TextBox4.Name = "TextBox4"
         Me.TextBox4.Size = New System.Drawing.Size(300, 32)
         Me.TextBox4.TabIndex = 22
@@ -205,7 +205,7 @@ Partial Class emprecords
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(584, 499)
+        Me.Label5.Location = New System.Drawing.Point(584, 496)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(64, 24)
         Me.Label5.TabIndex = 21

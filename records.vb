@@ -11,4 +11,8 @@
             End If
         End If
     End Sub
+
+    Private Sub btnAddEmp_Click(sender As Object, e As EventArgs) Handles btnAddEmp.Click
+
+    End Sub
 End Class

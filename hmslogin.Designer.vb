@@ -32,6 +32,7 @@ Partial Class hmslogin
         Me.pass = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'uname
@@ -91,13 +92,13 @@ Partial Class hmslogin
         '
         'btnInfo
         '
-        Me.btnInfo.BackColor = System.Drawing.Color.Transparent
+        Me.btnInfo.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.btnInfo.BackgroundImage = CType(resources.GetObject("btnInfo.BackgroundImage"), System.Drawing.Image)
         Me.btnInfo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.btnInfo.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnInfo.Font = New System.Drawing.Font("Trebuchet MS", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnInfo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(15, Byte), Integer), CType(CType(15, Byte), Integer), CType(CType(15, Byte), Integer))
-        Me.btnInfo.Location = New System.Drawing.Point(12, 576)
+        Me.btnInfo.Location = New System.Drawing.Point(1072, 583)
         Me.btnInfo.Name = "btnInfo"
         Me.btnInfo.Size = New System.Drawing.Size(47, 47)
         Me.btnInfo.TabIndex = 1
@@ -151,6 +152,18 @@ Partial Class hmslogin
         Me.Label1.TabIndex = 13
         Me.Label1.Text = "password:"
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Font = New System.Drawing.Font("Trebuchet MS", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
+        Me.Label3.Location = New System.Drawing.Point(727, 610)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(343, 20)
+        Me.Label3.TabIndex = 14
+        Me.Label3.Text = "Hotel Management System by Perez, J.P. 2022"
+        '
         'hmslogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
@@ -159,6 +172,7 @@ Partial Class hmslogin
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(1129, 635)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.pass)
@@ -191,4 +205,5 @@ Partial Class hmslogin
     Friend WithEvents pass As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents Label3 As Label
 End Class
