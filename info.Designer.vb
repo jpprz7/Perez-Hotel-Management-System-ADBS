@@ -31,26 +31,30 @@ Partial Class info
         Me.btnReturn.BackColor = System.Drawing.Color.Transparent
         Me.btnReturn.BackgroundImage = CType(resources.GetObject("btnReturn.BackgroundImage"), System.Drawing.Image)
         Me.btnReturn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnReturn.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnReturn.Font = New System.Drawing.Font("Trebuchet MS", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnReturn.ForeColor = System.Drawing.Color.FromArgb(CType(CType(15, Byte), Integer), CType(CType(15, Byte), Integer), CType(CType(15, Byte), Integer))
-        Me.btnReturn.Location = New System.Drawing.Point(12, 12)
+        Me.btnReturn.Location = New System.Drawing.Point(13, 14)
+        Me.btnReturn.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnReturn.Name = "btnReturn"
-        Me.btnReturn.Size = New System.Drawing.Size(35, 35)
+        Me.btnReturn.Size = New System.Drawing.Size(47, 47)
         Me.btnReturn.TabIndex = 2
         Me.btnReturn.UseVisualStyleBackColor = False
         '
         'info
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(15, Byte), Integer), CType(CType(15, Byte), Integer), CType(CType(15, Byte), Integer))
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ClientSize = New System.Drawing.Size(785, 589)
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.ClientSize = New System.Drawing.Size(985, 554)
         Me.Controls.Add(Me.btnReturn)
         Me.DoubleBuffered = True
+        Me.Font = New System.Drawing.Font("Trebuchet MS", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "info"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "HMS Info"

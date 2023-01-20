@@ -30,13 +30,14 @@ Partial Class hmslogin
         Me.btnInfo = New System.Windows.Forms.Button()
         Me.user = New System.Windows.Forms.Label()
         Me.pass = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'uname
         '
         Me.uname.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
         Me.uname.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.uname.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
         Me.uname.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.uname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.uname.Location = New System.Drawing.Point(61, 284)
@@ -49,7 +50,6 @@ Partial Class hmslogin
         '
         Me.pword.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
         Me.pword.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.pword.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
         Me.pword.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.pword.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.pword.Location = New System.Drawing.Point(61, 376)
@@ -64,10 +64,11 @@ Partial Class hmslogin
         'btnLogin
         '
         Me.btnLogin.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.btnLogin.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnLogin.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogin.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.btnLogin.Location = New System.Drawing.Point(164, 439)
+        Me.btnLogin.Location = New System.Drawing.Point(164, 438)
         Me.btnLogin.Name = "btnLogin"
         Me.btnLogin.Size = New System.Drawing.Size(100, 45)
         Me.btnLogin.TabIndex = 5
@@ -78,10 +79,12 @@ Partial Class hmslogin
         '
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.BackColor = System.Drawing.Color.Transparent
+        Me.CheckBox1.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.CheckBox1.Font = New System.Drawing.Font("Trebuchet MS", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.CheckBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.CheckBox1.Location = New System.Drawing.Point(61, 412)
+        Me.CheckBox1.Location = New System.Drawing.Point(61, 408)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(61, 24)
+        Me.CheckBox1.Size = New System.Drawing.Size(58, 22)
         Me.CheckBox1.TabIndex = 4
         Me.CheckBox1.Text = "show"
         Me.CheckBox1.UseVisualStyleBackColor = False
@@ -91,11 +94,12 @@ Partial Class hmslogin
         Me.btnInfo.BackColor = System.Drawing.Color.Transparent
         Me.btnInfo.BackgroundImage = CType(resources.GetObject("btnInfo.BackgroundImage"), System.Drawing.Image)
         Me.btnInfo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnInfo.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btnInfo.Font = New System.Drawing.Font("Trebuchet MS", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnInfo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(15, Byte), Integer), CType(CType(15, Byte), Integer), CType(CType(15, Byte), Integer))
-        Me.btnInfo.Location = New System.Drawing.Point(12, 588)
+        Me.btnInfo.Location = New System.Drawing.Point(12, 576)
         Me.btnInfo.Name = "btnInfo"
-        Me.btnInfo.Size = New System.Drawing.Size(35, 35)
+        Me.btnInfo.Size = New System.Drawing.Size(47, 47)
         Me.btnInfo.TabIndex = 1
         Me.btnInfo.UseVisualStyleBackColor = False
         '
@@ -104,6 +108,7 @@ Partial Class hmslogin
         Me.user.AutoSize = True
         Me.user.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
         Me.user.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.user.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.user.Location = New System.Drawing.Point(165, 287)
         Me.user.Name = "user"
         Me.user.Size = New System.Drawing.Size(91, 24)
@@ -115,11 +120,36 @@ Partial Class hmslogin
         Me.pass.AutoSize = True
         Me.pass.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
         Me.pass.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.pass.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.pass.Location = New System.Drawing.Point(165, 379)
         Me.pass.Name = "pass"
         Me.pass.Size = New System.Drawing.Size(90, 24)
         Me.pass.TabIndex = 7
         Me.pass.Text = "password"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.Label2.Location = New System.Drawing.Point(57, 259)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(89, 22)
+        Me.Label2.TabIndex = 12
+        Me.Label2.Text = "username:"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(57, 351)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(88, 22)
+        Me.Label1.TabIndex = 13
+        Me.Label1.Text = "password:"
         '
         'hmslogin
         '
@@ -129,6 +159,8 @@ Partial Class hmslogin
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(1129, 635)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.pass)
         Me.Controls.Add(Me.user)
         Me.Controls.Add(Me.btnInfo)
@@ -143,8 +175,9 @@ Partial Class hmslogin
         Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.MaximizeBox = False
         Me.Name = "hmslogin"
+        Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "HMS Log in"
+        Me.Text = "Log in to HMS"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -156,4 +189,6 @@ Partial Class hmslogin
     Friend WithEvents btnInfo As Button
     Friend WithEvents user As Label
     Friend WithEvents pass As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label1 As Label
 End Class
