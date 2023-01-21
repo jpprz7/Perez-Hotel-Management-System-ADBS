@@ -57,7 +57,7 @@ Partial Class checkio
         Me.txtbxFrstname.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtbxFrstname.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtbxFrstname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.txtbxFrstname.Location = New System.Drawing.Point(85, 103)
+        Me.txtbxFrstname.Location = New System.Drawing.Point(93, 103)
         Me.txtbxFrstname.Name = "txtbxFrstname"
         Me.txtbxFrstname.Size = New System.Drawing.Size(314, 30)
         Me.txtbxFrstname.TabIndex = 15
@@ -69,7 +69,7 @@ Partial Class checkio
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(81, 78)
+        Me.Label2.Location = New System.Drawing.Point(89, 78)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(96, 22)
         Me.Label2.TabIndex = 14
@@ -82,7 +82,7 @@ Partial Class checkio
         Me.btnCheckin.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnCheckin.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCheckin.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.btnCheckin.Location = New System.Drawing.Point(584, 487)
+        Me.btnCheckin.Location = New System.Drawing.Point(565, 487)
         Me.btnCheckin.Name = "btnCheckin"
         Me.btnCheckin.Size = New System.Drawing.Size(132, 51)
         Me.btnCheckin.TabIndex = 19
@@ -96,7 +96,7 @@ Partial Class checkio
         Me.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnCancel.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCancel.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.btnCancel.Location = New System.Drawing.Point(768, 487)
+        Me.btnCancel.Location = New System.Drawing.Point(749, 487)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(132, 51)
         Me.btnCancel.TabIndex = 20
@@ -110,7 +110,7 @@ Partial Class checkio
         Me.txtbxSurname.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtbxSurname.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtbxSurname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.txtbxSurname.Location = New System.Drawing.Point(85, 285)
+        Me.txtbxSurname.Location = New System.Drawing.Point(93, 285)
         Me.txtbxSurname.Name = "txtbxSurname"
         Me.txtbxSurname.Size = New System.Drawing.Size(314, 30)
         Me.txtbxSurname.TabIndex = 17
@@ -122,7 +122,7 @@ Partial Class checkio
         Me.Label3.BackColor = System.Drawing.Color.Transparent
         Me.Label3.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(81, 260)
+        Me.Label3.Location = New System.Drawing.Point(89, 260)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(81, 22)
         Me.Label3.TabIndex = 19
@@ -135,7 +135,7 @@ Partial Class checkio
         Me.txtbxContact.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtbxContact.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtbxContact.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.txtbxContact.Location = New System.Drawing.Point(85, 377)
+        Me.txtbxContact.Location = New System.Drawing.Point(93, 377)
         Me.txtbxContact.MaxLength = 11
         Me.txtbxContact.Name = "txtbxContact"
         Me.txtbxContact.Size = New System.Drawing.Size(314, 30)
@@ -148,7 +148,7 @@ Partial Class checkio
         Me.Label4.BackColor = System.Drawing.Color.Transparent
         Me.Label4.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(81, 352)
+        Me.Label4.Location = New System.Drawing.Point(89, 352)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(137, 22)
         Me.Label4.TabIndex = 21
@@ -161,7 +161,7 @@ Partial Class checkio
         Me.txtbxNights.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtbxNights.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtbxNights.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.txtbxNights.Location = New System.Drawing.Point(827, 191)
+        Me.txtbxNights.Location = New System.Drawing.Point(808, 191)
         Me.txtbxNights.MaxLength = 2
         Me.txtbxNights.Name = "txtbxNights"
         Me.txtbxNights.ReadOnly = True
@@ -175,7 +175,7 @@ Partial Class checkio
         Me.Label5.BackColor = System.Drawing.Color.Transparent
         Me.Label5.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(823, 166)
+        Me.Label5.Location = New System.Drawing.Point(804, 166)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(120, 22)
         Me.Label5.TabIndex = 23
@@ -194,7 +194,7 @@ Partial Class checkio
         Me.GroupBox1.Controls.Add(Me.RadioButton1)
         Me.GroupBox1.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.GroupBox1.Location = New System.Drawing.Point(515, 256)
+        Me.GroupBox1.Location = New System.Drawing.Point(496, 256)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(428, 195)
         Me.GroupBox1.TabIndex = 25
@@ -315,7 +315,7 @@ Partial Class checkio
         Me.Label6.BackColor = System.Drawing.Color.Transparent
         Me.Label6.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Label6.Location = New System.Drawing.Point(511, 80)
+        Me.Label6.Location = New System.Drawing.Point(492, 80)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(120, 22)
         Me.Label6.TabIndex = 27
@@ -327,7 +327,7 @@ Partial Class checkio
         Me.Label7.BackColor = System.Drawing.Color.Transparent
         Me.Label7.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Label7.Location = New System.Drawing.Point(511, 166)
+        Me.Label7.Location = New System.Drawing.Point(492, 166)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(131, 22)
         Me.Label7.TabIndex = 29
@@ -340,7 +340,7 @@ Partial Class checkio
         Me.txtbxMidName.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtbxMidName.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtbxMidName.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.txtbxMidName.Location = New System.Drawing.Point(85, 191)
+        Me.txtbxMidName.Location = New System.Drawing.Point(93, 191)
         Me.txtbxMidName.Name = "txtbxMidName"
         Me.txtbxMidName.Size = New System.Drawing.Size(314, 30)
         Me.txtbxMidName.TabIndex = 16
@@ -352,7 +352,7 @@ Partial Class checkio
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(81, 166)
+        Me.Label1.Location = New System.Drawing.Point(89, 166)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(110, 22)
         Me.Label1.TabIndex = 30
@@ -360,14 +360,14 @@ Partial Class checkio
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(515, 128)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(496, 128)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(299, 25)
         Me.DateTimePicker1.TabIndex = 32
         '
         'DateTimePicker2
         '
-        Me.DateTimePicker2.Location = New System.Drawing.Point(515, 196)
+        Me.DateTimePicker2.Location = New System.Drawing.Point(496, 196)
         Me.DateTimePicker2.Name = "DateTimePicker2"
         Me.DateTimePicker2.Size = New System.Drawing.Size(299, 25)
         Me.DateTimePicker2.TabIndex = 33
