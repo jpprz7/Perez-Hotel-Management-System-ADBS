@@ -1,8 +1,15 @@
 ﻿'created by: Perez, John Patrick A.
 'BSIT-3C
-'ADBS - Group 3
+'ADBS
+
+Imports System.Data.SqlClient
+Imports System.Runtime.Remoting.Contexts
 
 Public Class checkio
+    'database reference
+    Dim cmd As SqlCommand
+    Dim conn As SqlConnection
+    Dim cnstr As String = "data source = PEREZ; user = zerep; password = zerep; database = hms"
 
     Dim roomtype, price As String
     Private Sub checkio_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -23,6 +30,26 @@ Public Class checkio
 
     'check-in
     Private Sub btnCheckin_Click(sender As Object, e As EventArgs) Handles btnCheckin.Click
+        Try
+            conn = New SqlConnection(cnstr)
+            conn.Open()
+            Dim SQL As String = "INSERT INTO customer_checkin (cfirstname, cmiddlename, clastname, ccontact_num, room_type, checkin, checkout, nights, total) 
+                values('" & txtbxFrstname.Text & "','" & txtbxMidName.Text & "','" & txtbxSurname.Text & "','" & txtbxContact.Text & "','" & roomtype & "','" & DateTimePicker1.Value & "','" & DateTimePicker2.Value & "','" & txtbxNights.Text & "', '" & price & "');
+                "
+            cmd = New SqlCommand(SQL, conn)
+            Dim i As Integer = cmd.ExecuteNonQuery
+
+            If i <> 0 Then
+                MsgBox("Check-in successful!", vbInformation, "Admin")
+            Else
+                MsgBox("Check-in failed!", vbCritical, "Sheeesh, mate!")
+            End If
+            Call Clearform()
+            conn.Close()
+
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
         Call Clearform()
     End Sub
 

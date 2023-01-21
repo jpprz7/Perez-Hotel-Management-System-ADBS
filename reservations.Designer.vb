@@ -24,6 +24,11 @@ Partial Class reservations
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ListView1 = New System.Windows.Forms.ListView()
+        Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader2 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader3 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader4 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader5 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.SuspendLayout()
         '
         'Label1
@@ -41,6 +46,7 @@ Partial Class reservations
         'ListView1
         '
         Me.ListView1.BackColor = System.Drawing.Color.White
+        Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5})
         Me.ListView1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.ListView1.GridLines = True
         Me.ListView1.HideSelection = False
@@ -50,6 +56,31 @@ Partial Class reservations
         Me.ListView1.TabIndex = 11
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
+        '
+        'ColumnHeader1
+        '
+        Me.ColumnHeader1.Text = "Customer"
+        Me.ColumnHeader1.Width = 250
+        '
+        'ColumnHeader2
+        '
+        Me.ColumnHeader2.Text = "Room Type"
+        Me.ColumnHeader2.Width = 132
+        '
+        'ColumnHeader3
+        '
+        Me.ColumnHeader3.Text = "Price"
+        Me.ColumnHeader3.Width = 128
+        '
+        'ColumnHeader4
+        '
+        Me.ColumnHeader4.Text = "Check in"
+        Me.ColumnHeader4.Width = 155
+        '
+        'ColumnHeader5
+        '
+        Me.ColumnHeader5.Text = "Check out"
+        Me.ColumnHeader5.Width = 159
         '
         'reservations
         '
@@ -69,4 +100,9 @@ Partial Class reservations
 
     Friend WithEvents Label1 As Label
     Friend WithEvents ListView1 As ListView
+    Friend WithEvents ColumnHeader1 As ColumnHeader
+    Friend WithEvents ColumnHeader2 As ColumnHeader
+    Friend WithEvents ColumnHeader3 As ColumnHeader
+    Friend WithEvents ColumnHeader4 As ColumnHeader
+    Friend WithEvents ColumnHeader5 As ColumnHeader
 End Class

@@ -24,6 +24,15 @@ Partial Class trlogs
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ListView1 = New System.Windows.Forms.ListView()
+        Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader2 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader3 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader4 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader5 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader6 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader7 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader8 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader9 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.SuspendLayout()
         '
         'Label1
@@ -41,6 +50,7 @@ Partial Class trlogs
         'ListView1
         '
         Me.ListView1.BackColor = System.Drawing.Color.White
+        Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5, Me.ColumnHeader6, Me.ColumnHeader7, Me.ColumnHeader8, Me.ColumnHeader9})
         Me.ListView1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.ListView1.GridLines = True
         Me.ListView1.HideSelection = False
@@ -50,6 +60,51 @@ Partial Class trlogs
         Me.ListView1.TabIndex = 11
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
+        '
+        'ColumnHeader1
+        '
+        Me.ColumnHeader1.Text = "Cus_ID"
+        Me.ColumnHeader1.Width = 64
+        '
+        'ColumnHeader2
+        '
+        Me.ColumnHeader2.Text = "First name"
+        Me.ColumnHeader2.Width = 102
+        '
+        'ColumnHeader3
+        '
+        Me.ColumnHeader3.Text = "Last name"
+        Me.ColumnHeader3.Width = 110
+        '
+        'ColumnHeader4
+        '
+        Me.ColumnHeader4.Text = "Contact number"
+        Me.ColumnHeader4.Width = 111
+        '
+        'ColumnHeader5
+        '
+        Me.ColumnHeader5.Text = "Room type"
+        Me.ColumnHeader5.Width = 88
+        '
+        'ColumnHeader6
+        '
+        Me.ColumnHeader6.Text = "Number of nights"
+        Me.ColumnHeader6.Width = 77
+        '
+        'ColumnHeader7
+        '
+        Me.ColumnHeader7.Text = "Check-in"
+        Me.ColumnHeader7.Width = 107
+        '
+        'ColumnHeader8
+        '
+        Me.ColumnHeader8.Text = "Check-out"
+        Me.ColumnHeader8.Width = 103
+        '
+        'ColumnHeader9
+        '
+        Me.ColumnHeader9.Text = "Total"
+        Me.ColumnHeader9.Width = 79
         '
         'trlogs
         '
@@ -70,4 +125,13 @@ Partial Class trlogs
 
     Friend WithEvents Label1 As Label
     Friend WithEvents ListView1 As ListView
+    Friend WithEvents ColumnHeader1 As ColumnHeader
+    Friend WithEvents ColumnHeader2 As ColumnHeader
+    Friend WithEvents ColumnHeader3 As ColumnHeader
+    Friend WithEvents ColumnHeader4 As ColumnHeader
+    Friend WithEvents ColumnHeader5 As ColumnHeader
+    Friend WithEvents ColumnHeader6 As ColumnHeader
+    Friend WithEvents ColumnHeader7 As ColumnHeader
+    Friend WithEvents ColumnHeader8 As ColumnHeader
+    Friend WithEvents ColumnHeader9 As ColumnHeader
 End Class

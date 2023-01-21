@@ -1,6 +1,6 @@
 ﻿'created by: Perez, John Patrick A.
 'BSIT-3C
-'ADBS - Group 3
+'ADBS 
 
 Public Class abouthms
     Private Sub abouthms_Load(sender As Object, e As EventArgs) Handles MyBase.Load

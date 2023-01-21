@@ -85,7 +85,7 @@ Partial Class checkio
         Me.btnCheckin.Location = New System.Drawing.Point(584, 487)
         Me.btnCheckin.Name = "btnCheckin"
         Me.btnCheckin.Size = New System.Drawing.Size(132, 51)
-        Me.btnCheckin.TabIndex = 13
+        Me.btnCheckin.TabIndex = 19
         Me.btnCheckin.Text = "Check in"
         Me.btnCheckin.UseVisualStyleBackColor = False
         '
@@ -99,7 +99,7 @@ Partial Class checkio
         Me.btnCancel.Location = New System.Drawing.Point(768, 487)
         Me.btnCancel.Name = "btnCancel"
         Me.btnCancel.Size = New System.Drawing.Size(132, 51)
-        Me.btnCancel.TabIndex = 16
+        Me.btnCancel.TabIndex = 20
         Me.btnCancel.Text = "Cancel"
         Me.btnCancel.UseVisualStyleBackColor = False
         '
@@ -113,7 +113,7 @@ Partial Class checkio
         Me.txtbxSurname.Location = New System.Drawing.Point(85, 285)
         Me.txtbxSurname.Name = "txtbxSurname"
         Me.txtbxSurname.Size = New System.Drawing.Size(314, 30)
-        Me.txtbxSurname.TabIndex = 20
+        Me.txtbxSurname.TabIndex = 17
         Me.txtbxSurname.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label3
@@ -139,7 +139,7 @@ Partial Class checkio
         Me.txtbxContact.MaxLength = 11
         Me.txtbxContact.Name = "txtbxContact"
         Me.txtbxContact.Size = New System.Drawing.Size(314, 30)
-        Me.txtbxContact.TabIndex = 22
+        Me.txtbxContact.TabIndex = 18
         Me.txtbxContact.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label4
@@ -343,7 +343,7 @@ Partial Class checkio
         Me.txtbxMidName.Location = New System.Drawing.Point(85, 191)
         Me.txtbxMidName.Name = "txtbxMidName"
         Me.txtbxMidName.Size = New System.Drawing.Size(314, 30)
-        Me.txtbxMidName.TabIndex = 31
+        Me.txtbxMidName.TabIndex = 16
         Me.txtbxMidName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label1

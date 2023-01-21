@@ -1,8 +1,15 @@
 ﻿'created by: Perez, John Patrick A.
 'BSIT-3C
-'ADBS - Group 3
+'ADBS
+
+Imports System.Data.SqlClient
 
 Public Class staffpage
+    'database reference
+    Dim cmd As SqlCommand
+    Dim conn As SqlConnection
+    Dim cnstr As String = "data source = PEREZ; user = zerep; password = zerep; database = hms"
+
     'user controls reference
     Dim checkin = New checkio
     Dim logs = New trlogs

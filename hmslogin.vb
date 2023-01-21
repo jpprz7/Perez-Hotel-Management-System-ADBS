@@ -1,6 +1,6 @@
 ﻿'created by: Perez, John Patrick A.
 'BSIT-3C
-'ADBS - Group 3
+'ADBS
 
 Public Class hmslogin
 

@@ -1,10 +1,16 @@
 ﻿'created by: Perez, John Patrick A.
 'BSIT-3C
-'ADBS - Group 3
+'ADBS
 
 Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Button
+Imports System.Data.SqlClient
 
 Public Class adminpage
+    'database reference
+    Dim cmd As SqlCommand
+    Dim conn As SqlConnection
+    Dim cnstr As String = "data source = PEREZ; user = zerep; password = zerep; database = hms"
+
     'user controls reference
     Dim emprec = New emprecords
     Dim logs = New trlogs
