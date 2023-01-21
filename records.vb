@@ -1,18 +1,33 @@
-﻿Public Class emprecords
-    Private Sub UserControl1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.Dock = DockStyle.Fill
+﻿'created by: Perez, John Patrick A.
+'BSIT-3C
+'ADBS - Group 3
 
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement.Status
+Public Class emprecords
+
+    Public Sub Clr()
+        txtbxFrstname.Clear()
+        txtbxMidname.Clear()
+        txtbxSurname.Clear()
+        txtbxContNum.Clear()
+        txtbxEmpNo.Clear()
+        txtbxEmail.Clear()
+        combGender.SelectedIndex = -1
     End Sub
-
-    Private Sub TextBox5_KeyPress(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles txtbxContNum.KeyPress
-        If Asc(e.KeyChar) <> 8 Then
-            If Asc(e.KeyChar) < 48 Or Asc(e.KeyChar) > 57 Then
-                e.Handled = True
-            End If
-        End If
+    Private Sub emprecords_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.Dock = DockStyle.Fill
     End Sub
 
     Private Sub btnAddEmp_Click(sender As Object, e As EventArgs) Handles btnAddEmp.Click
+        'lagay ng message pag ok sql sabay clear ng textbox
+        Call Clr()
+    End Sub
 
+    Private Sub btnUpdEmp_Click(sender As Object, e As EventArgs) Handles btnUpdEmp.Click
+        Call Clr()
+    End Sub
+
+    Private Sub btnDelEmp_Click(sender As Object, e As EventArgs) Handles btnDelEmp.Click
+        Call Clr()
     End Sub
 End Class

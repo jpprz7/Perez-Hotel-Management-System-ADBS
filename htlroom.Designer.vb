@@ -34,7 +34,7 @@ Partial Class htlroom
         Me.btnLink.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnLink.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLink.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.btnLink.Location = New System.Drawing.Point(632, 393)
+        Me.btnLink.Location = New System.Drawing.Point(655, 377)
         Me.btnLink.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.btnLink.Name = "btnLink"
         Me.btnLink.Size = New System.Drawing.Size(175, 66)
@@ -60,14 +60,14 @@ Partial Class htlroom
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Transparent
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnLink)
         Me.DoubleBuffered = True
         Me.Font = New System.Drawing.Font("Trebuchet MS", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "htlroom"
-        Me.Size = New System.Drawing.Size(1033, 646)
+        Me.Size = New System.Drawing.Size(1095, 616)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

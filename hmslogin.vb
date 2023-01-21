@@ -32,7 +32,7 @@ Public Class hmslogin
             'staff
         ElseIf uname.Text = "staff" And pword.Text = "staff" Then
             MsgBox("Welcome to HMS, hotel staff!", vbInformation, "Log in successful!")
-            adminpage.Show()
+            staffpage.Show()
             Me.Hide()
             'para mareset mga textbox
             uname.Clear()

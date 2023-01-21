@@ -31,8 +31,8 @@ Partial Class trlogs
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Trebuchet MS", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(201, 600)
+        Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.Label1.Location = New System.Drawing.Point(206, 560)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(620, 35)
         Me.Label1.TabIndex = 12
@@ -44,9 +44,9 @@ Partial Class trlogs
         Me.ListView1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.ListView1.GridLines = True
         Me.ListView1.HideSelection = False
-        Me.ListView1.Location = New System.Drawing.Point(3, 3)
+        Me.ListView1.Location = New System.Drawing.Point(100, 36)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(1027, 584)
+        Me.ListView1.Size = New System.Drawing.Size(829, 505)
         Me.ListView1.TabIndex = 11
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
@@ -55,13 +55,14 @@ Partial Class trlogs
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.Transparent
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.ListView1)
         Me.Font = New System.Drawing.Font("Trebuchet MS", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "trlogs"
-        Me.Size = New System.Drawing.Size(1033, 646)
+        Me.Size = New System.Drawing.Size(1029, 617)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

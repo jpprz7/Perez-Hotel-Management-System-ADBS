@@ -51,9 +51,9 @@ Partial Class emprecords
         Me.btnAddEmp.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnAddEmp.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAddEmp.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.btnAddEmp.Location = New System.Drawing.Point(252, 574)
+        Me.btnAddEmp.Location = New System.Drawing.Point(819, 385)
         Me.btnAddEmp.Name = "btnAddEmp"
-        Me.btnAddEmp.Size = New System.Drawing.Size(100, 50)
+        Me.btnAddEmp.Size = New System.Drawing.Size(132, 51)
         Me.btnAddEmp.TabIndex = 6
         Me.btnAddEmp.Text = "Add"
         Me.btnAddEmp.UseVisualStyleBackColor = False
@@ -65,9 +65,9 @@ Partial Class emprecords
         Me.btnUpdEmp.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnUpdEmp.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnUpdEmp.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.btnUpdEmp.Location = New System.Drawing.Point(465, 574)
+        Me.btnUpdEmp.Location = New System.Drawing.Point(819, 461)
         Me.btnUpdEmp.Name = "btnUpdEmp"
-        Me.btnUpdEmp.Size = New System.Drawing.Size(100, 50)
+        Me.btnUpdEmp.Size = New System.Drawing.Size(132, 51)
         Me.btnUpdEmp.TabIndex = 7
         Me.btnUpdEmp.Text = "Update"
         Me.btnUpdEmp.UseVisualStyleBackColor = False
@@ -79,9 +79,9 @@ Partial Class emprecords
         Me.btnDelEmp.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnDelEmp.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnDelEmp.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.btnDelEmp.Location = New System.Drawing.Point(679, 574)
+        Me.btnDelEmp.Location = New System.Drawing.Point(819, 538)
         Me.btnDelEmp.Name = "btnDelEmp"
-        Me.btnDelEmp.Size = New System.Drawing.Size(100, 50)
+        Me.btnDelEmp.Size = New System.Drawing.Size(132, 51)
         Me.btnDelEmp.TabIndex = 8
         Me.btnDelEmp.Text = "Delete"
         Me.btnDelEmp.UseVisualStyleBackColor = False
@@ -92,9 +92,9 @@ Partial Class emprecords
         Me.ListView1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.ListView1.GridLines = True
         Me.ListView1.HideSelection = False
-        Me.ListView1.Location = New System.Drawing.Point(3, 3)
+        Me.ListView1.Location = New System.Drawing.Point(37, 17)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(1027, 294)
+        Me.ListView1.Size = New System.Drawing.Size(955, 294)
         Me.ListView1.TabIndex = 9
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
@@ -105,7 +105,7 @@ Partial Class emprecords
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Trebuchet MS", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(265, 300)
+        Me.Label1.Location = New System.Drawing.Point(261, 324)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(502, 35)
         Me.Label1.TabIndex = 10
@@ -115,11 +115,11 @@ Partial Class emprecords
         '
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
-        Me.Label2.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(145, 343)
+        Me.Label2.Location = New System.Drawing.Point(78, 379)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(107, 24)
+        Me.Label2.Size = New System.Drawing.Size(96, 22)
         Me.Label2.TabIndex = 11
         Me.Label2.Text = "First name:"
         '
@@ -130,7 +130,7 @@ Partial Class emprecords
         Me.txtbxFrstname.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtbxFrstname.Font = New System.Drawing.Font("Trebuchet MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtbxFrstname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.txtbxFrstname.Location = New System.Drawing.Point(149, 370)
+        Me.txtbxFrstname.Location = New System.Drawing.Point(82, 404)
         Me.txtbxFrstname.Name = "txtbxFrstname"
         Me.txtbxFrstname.Size = New System.Drawing.Size(300, 32)
         Me.txtbxFrstname.TabIndex = 12
@@ -143,7 +143,7 @@ Partial Class emprecords
         Me.txtbxMidname.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtbxMidname.Font = New System.Drawing.Font("Trebuchet MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtbxMidname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.txtbxMidname.Location = New System.Drawing.Point(149, 446)
+        Me.txtbxMidname.Location = New System.Drawing.Point(82, 473)
         Me.txtbxMidname.Name = "txtbxMidname"
         Me.txtbxMidname.Size = New System.Drawing.Size(300, 32)
         Me.txtbxMidname.TabIndex = 14
@@ -153,11 +153,11 @@ Partial Class emprecords
         '
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.Transparent
-        Me.Label3.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(145, 419)
+        Me.Label3.Location = New System.Drawing.Point(78, 448)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(126, 24)
+        Me.Label3.Size = New System.Drawing.Size(110, 22)
         Me.Label3.TabIndex = 13
         Me.Label3.Text = "Middle name:"
         '
@@ -168,7 +168,7 @@ Partial Class emprecords
         Me.txtbxSurname.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.txtbxSurname.Font = New System.Drawing.Font("Trebuchet MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtbxSurname.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.txtbxSurname.Location = New System.Drawing.Point(149, 523)
+        Me.txtbxSurname.Location = New System.Drawing.Point(82, 542)
         Me.txtbxSurname.Name = "txtbxSurname"
         Me.txtbxSurname.Size = New System.Drawing.Size(300, 32)
         Me.txtbxSurname.TabIndex = 16
@@ -178,11 +178,11 @@ Partial Class emprecords
         '
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.Transparent
-        Me.Label4.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(145, 496)
+        Me.Label4.Location = New System.Drawing.Point(78, 517)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(90, 24)
+        Me.Label4.Size = New System.Drawing.Size(81, 22)
         Me.Label4.TabIndex = 15
         Me.Label4.Text = "Surname:"
         '
@@ -193,7 +193,7 @@ Partial Class emprecords
         Me.txtbxEmail.CharacterCasing = System.Windows.Forms.CharacterCasing.Lower
         Me.txtbxEmail.Font = New System.Drawing.Font("Trebuchet MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtbxEmail.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.txtbxEmail.Location = New System.Drawing.Point(588, 523)
+        Me.txtbxEmail.Location = New System.Drawing.Point(450, 542)
         Me.txtbxEmail.Name = "txtbxEmail"
         Me.txtbxEmail.Size = New System.Drawing.Size(300, 32)
         Me.txtbxEmail.TabIndex = 22
@@ -203,11 +203,11 @@ Partial Class emprecords
         '
         Me.Label5.AutoSize = True
         Me.Label5.BackColor = System.Drawing.Color.Transparent
-        Me.Label5.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Label5.Location = New System.Drawing.Point(584, 496)
+        Me.Label5.Location = New System.Drawing.Point(446, 517)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(64, 24)
+        Me.Label5.Size = New System.Drawing.Size(57, 22)
         Me.Label5.TabIndex = 21
         Me.Label5.Text = "Email:"
         '
@@ -217,7 +217,7 @@ Partial Class emprecords
         Me.txtbxContNum.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.txtbxContNum.Font = New System.Drawing.Font("Trebuchet MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtbxContNum.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.txtbxContNum.Location = New System.Drawing.Point(588, 446)
+        Me.txtbxContNum.Location = New System.Drawing.Point(450, 473)
         Me.txtbxContNum.MaxLength = 11
         Me.txtbxContNum.Name = "txtbxContNum"
         Me.txtbxContNum.Size = New System.Drawing.Size(300, 32)
@@ -228,11 +228,11 @@ Partial Class emprecords
         '
         Me.Label6.AutoSize = True
         Me.Label6.BackColor = System.Drawing.Color.Transparent
-        Me.Label6.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Label6.Location = New System.Drawing.Point(584, 419)
+        Me.Label6.Location = New System.Drawing.Point(446, 448)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(153, 24)
+        Me.Label6.Size = New System.Drawing.Size(137, 22)
         Me.Label6.TabIndex = 19
         Me.Label6.Text = "Contact number:"
         '
@@ -243,7 +243,7 @@ Partial Class emprecords
         Me.txtbxEmpNo.Enabled = False
         Me.txtbxEmpNo.Font = New System.Drawing.Font("Trebuchet MS", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtbxEmpNo.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.txtbxEmpNo.Location = New System.Drawing.Point(588, 370)
+        Me.txtbxEmpNo.Location = New System.Drawing.Point(450, 404)
         Me.txtbxEmpNo.Name = "txtbxEmpNo"
         Me.txtbxEmpNo.ReadOnly = True
         Me.txtbxEmpNo.Size = New System.Drawing.Size(176, 32)
@@ -254,11 +254,11 @@ Partial Class emprecords
         '
         Me.Label7.AutoSize = True
         Me.Label7.BackColor = System.Drawing.Color.Transparent
-        Me.Label7.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Label7.Location = New System.Drawing.Point(584, 343)
+        Me.Label7.Location = New System.Drawing.Point(446, 379)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(115, 24)
+        Me.Label7.Size = New System.Drawing.Size(102, 22)
         Me.Label7.TabIndex = 17
         Me.Label7.Text = "Employee #:"
         '
@@ -266,11 +266,11 @@ Partial Class emprecords
         '
         Me.Label8.AutoSize = True
         Me.Label8.BackColor = System.Drawing.Color.Transparent
-        Me.Label8.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Font = New System.Drawing.Font("Trebuchet MS", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Label8.Location = New System.Drawing.Point(785, 343)
+        Me.Label8.Location = New System.Drawing.Point(647, 379)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(78, 24)
+        Me.Label8.Size = New System.Drawing.Size(70, 22)
         Me.Label8.TabIndex = 23
         Me.Label8.Text = "Gender:"
         '
@@ -284,7 +284,7 @@ Partial Class emprecords
         Me.combGender.FormattingEnabled = True
         Me.combGender.ItemHeight = 27
         Me.combGender.Items.AddRange(New Object() {"MALE", "FEMALE"})
-        Me.combGender.Location = New System.Drawing.Point(789, 370)
+        Me.combGender.Location = New System.Drawing.Point(651, 404)
         Me.combGender.Name = "combGender"
         Me.combGender.Size = New System.Drawing.Size(99, 35)
         Me.combGender.TabIndex = 25
@@ -294,7 +294,7 @@ Partial Class emprecords
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Controls.Add(Me.combGender)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.txtbxEmail)
@@ -319,7 +319,7 @@ Partial Class emprecords
         Me.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
         Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "emprecords"
-        Me.Size = New System.Drawing.Size(1033, 646)
+        Me.Size = New System.Drawing.Size(1029, 617)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
