@@ -4,13 +4,12 @@
 -- Database filename:
 Perez - HMS database.bacpac
 
--- Hotel Management System password:
--- hotel admin username & password: admin
--- hotel staff username& password: staff
-
-
 -- Room types  website link:
 https://perez-hms-rooms.netlify.app/
+
+-- Hotel Management System password:
+* hotel admin username & password: admin
+* hotel staff username& password: staff
 
 -- Admin features:
 * add, modify, and deleteemployee records.
