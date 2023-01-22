@@ -9,7 +9,7 @@ Imports System.Runtime.Remoting.Contexts
 
 Public Class emprecords
     Dim conn As SqlConnection
-    Dim cnstr As String = "data source = PEREZ; user = zerep; password = zerep; database = hms"
+    Dim cnstr As String = "data source = PEREZ; user = perez; password = perez; database = Perez - HMS database"
     Dim itemcol(999) As String
     Dim cmd As SqlCommand
     Dim da As SqlDataAdapter
@@ -58,13 +58,14 @@ Public Class emprecords
             conn.Open()
             Dim SQL As String =
                 "INSERT INTO emp_record (efirstname, emiddlename, elastname, gender, contact_num, email) 
-                values('" & txtbxFrstname.Text & "',
+                values(
+                '" & txtbxFrstname.Text & "',
                 '" & txtbxMidname.Text & "',
                 '" & txtbxSurname.Text & "',
                 '" & combGender.Text & "',
                 '" & txtbxContNum.Text & "',
-                '" & txtbxEmail.Text & "',
-                '0');
+                '" & txtbxEmail.Text & "'
+                );
                 "
             cmd = New SqlCommand(SQL, conn)
             Dim i As Integer = cmd.ExecuteNonQuery
@@ -139,7 +140,7 @@ Public Class emprecords
             txtbxFrstname.Text = ListView1.SelectedItems(0).SubItems(1).Text
             txtbxMidname.Text = ListView1.SelectedItems(0).SubItems(2).Text
             txtbxSurname.Text = ListView1.SelectedItems(0).SubItems(3).Text
-            combGender.Text = ListView1.SelectedItems(0).SubItems(4).Text
+            combGender.SelectedItem = ListView1.SelectedItems(0).SubItems(4).Text
             txtbxContNum.Text = ListView1.SelectedItems(0).SubItems(5).Text
             txtbxEmail.Text = ListView1.SelectedItems(0).SubItems(6).Text
         End If

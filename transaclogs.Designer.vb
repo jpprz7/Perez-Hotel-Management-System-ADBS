@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class trlogs
     Inherits System.Windows.Forms.UserControl
 
     'UserControl overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class trlogs
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.ListView1 = New System.Windows.Forms.ListView()
@@ -33,6 +33,8 @@ Partial Class trlogs
         Me.ColumnHeader7 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader8 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader9 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.ColumnHeader10 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.btnRefresh = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -41,7 +43,7 @@ Partial Class trlogs
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Trebuchet MS", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(206, 560)
+        Me.Label1.Location = New System.Drawing.Point(197, 560)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(620, 35)
         Me.Label1.TabIndex = 12
@@ -50,61 +52,80 @@ Partial Class trlogs
         'ListView1
         '
         Me.ListView1.BackColor = System.Drawing.Color.White
-        Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5, Me.ColumnHeader6, Me.ColumnHeader7, Me.ColumnHeader8, Me.ColumnHeader9})
+        Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4, Me.ColumnHeader5, Me.ColumnHeader6, Me.ColumnHeader7, Me.ColumnHeader8, Me.ColumnHeader9, Me.ColumnHeader10})
         Me.ListView1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
         Me.ListView1.GridLines = True
         Me.ListView1.HideSelection = False
-        Me.ListView1.Location = New System.Drawing.Point(100, 36)
+        Me.ListView1.Location = New System.Drawing.Point(37, 37)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(829, 505)
-        Me.ListView1.TabIndex = 11
+        Me.ListView1.Size = New System.Drawing.Size(955, 454)
+        Me.ListView1.TabIndex = 13
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
         '
         'ColumnHeader1
         '
-        Me.ColumnHeader1.Text = "Cus_ID"
-        Me.ColumnHeader1.Width = 64
+        Me.ColumnHeader1.Text = "Cust. ID"
+        Me.ColumnHeader1.Width = 79
         '
         'ColumnHeader2
         '
-        Me.ColumnHeader2.Text = "First name"
-        Me.ColumnHeader2.Width = 102
+        Me.ColumnHeader2.Text = "Firstname"
+        Me.ColumnHeader2.Width = 154
         '
         'ColumnHeader3
         '
-        Me.ColumnHeader3.Text = "Last name"
-        Me.ColumnHeader3.Width = 110
+        Me.ColumnHeader3.Text = "Middlename"
+        Me.ColumnHeader3.Width = 164
         '
         'ColumnHeader4
         '
-        Me.ColumnHeader4.Text = "Contact number"
-        Me.ColumnHeader4.Width = 111
+        Me.ColumnHeader4.Text = "Lastname"
+        Me.ColumnHeader4.Width = 155
         '
         'ColumnHeader5
         '
-        Me.ColumnHeader5.Text = "Room type"
-        Me.ColumnHeader5.Width = 88
+        Me.ColumnHeader5.Text = "Contact number"
+        Me.ColumnHeader5.Width = 168
         '
         'ColumnHeader6
         '
-        Me.ColumnHeader6.Text = "Number of nights"
-        Me.ColumnHeader6.Width = 77
+        Me.ColumnHeader6.Text = "Room type"
+        Me.ColumnHeader6.Width = 128
         '
         'ColumnHeader7
         '
-        Me.ColumnHeader7.Text = "Check-in"
-        Me.ColumnHeader7.Width = 107
+        Me.ColumnHeader7.Text = "No. of nights"
+        Me.ColumnHeader7.Width = 71
         '
         'ColumnHeader8
         '
-        Me.ColumnHeader8.Text = "Check-out"
-        Me.ColumnHeader8.Width = 103
+        Me.ColumnHeader8.Text = "Check-in"
+        Me.ColumnHeader8.Width = 199
         '
         'ColumnHeader9
         '
-        Me.ColumnHeader9.Text = "Total"
-        Me.ColumnHeader9.Width = 79
+        Me.ColumnHeader9.Text = "Check-out"
+        Me.ColumnHeader9.Width = 188
+        '
+        'ColumnHeader10
+        '
+        Me.ColumnHeader10.Text = "Total"
+        Me.ColumnHeader10.Width = 108
+        '
+        'btnRefresh
+        '
+        Me.btnRefresh.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
+        Me.btnRefresh.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.btnRefresh.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnRefresh.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnRefresh.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
+        Me.btnRefresh.Location = New System.Drawing.Point(454, 506)
+        Me.btnRefresh.Name = "btnRefresh"
+        Me.btnRefresh.Size = New System.Drawing.Size(114, 44)
+        Me.btnRefresh.TabIndex = 20
+        Me.btnRefresh.Text = "Refresh"
+        Me.btnRefresh.UseVisualStyleBackColor = False
         '
         'trlogs
         '
@@ -112,8 +133,9 @@ Partial Class trlogs
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.btnRefresh)
         Me.Controls.Add(Me.ListView1)
+        Me.Controls.Add(Me.Label1)
         Me.Font = New System.Drawing.Font("Trebuchet MS", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Name = "trlogs"
@@ -134,4 +156,6 @@ Partial Class trlogs
     Friend WithEvents ColumnHeader7 As ColumnHeader
     Friend WithEvents ColumnHeader8 As ColumnHeader
     Friend WithEvents ColumnHeader9 As ColumnHeader
+    Friend WithEvents ColumnHeader10 As ColumnHeader
+    Friend WithEvents btnRefresh As Button
 End Class

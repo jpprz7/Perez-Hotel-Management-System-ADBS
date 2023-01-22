@@ -8,7 +8,7 @@ Public Class staffpage
     'database reference
     Dim cmd As SqlCommand
     Dim conn As SqlConnection
-    Dim cnstr As String = "data source = PEREZ; user = zerep; password = zerep; database = hms"
+    Dim cnstr As String = "data source = PEREZ; user = perez; password = perez; database = Perez - HMS database"
 
     'user controls reference
     Dim checkin = New checkio
@@ -42,9 +42,11 @@ Public Class staffpage
         rooms.BringToFront()
     End Sub
 
-    Private Sub btnReservations_Click(sender As Object, e As EventArgs) Handles btnReservations.Click
-        reserv.bringtofront()
-    End Sub
+    'remove ko muna kasi walang backend yung website pang reservation
+
+    'Private Sub btnReservations_Click(sender As Object, e As EventArgs) Handles btnReservations.Click
+    '    reserv.bringtofront()
+    'End Sub
 
     Private Sub btnStfLogs_Click(sender As Object, e As EventArgs) Handles btnStfLogs.Click
         logs.bringtofront()

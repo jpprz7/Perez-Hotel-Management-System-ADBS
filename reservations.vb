@@ -2,12 +2,16 @@
 'BSIT-3C
 'ADBS
 
+
+'TODO: aayusin ko pa website para makapagreserve ditoo
+
+
 Imports System.Data.SqlClient
 Imports System.Runtime.Remoting.Contexts
 
 Public Class reservations
     Dim conn As SqlConnection
-    Dim cnstr As String = "data source = PEREZ; user = zerep; password = zerep; database = hms"
+    Dim cnstr As String = "data source = PEREZ; user = perez; password = perez; database = Perez - HMS database"
     Dim cmd As SqlCommand
     Dim itemcol(999) As String
     Dim da As SqlDataAdapter
@@ -47,4 +51,5 @@ Public Class reservations
     Private Sub ListView1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListView1.SelectedIndexChanged
 
     End Sub
+
 End Class

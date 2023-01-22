@@ -9,7 +9,7 @@ Public Class checkio
     'database reference
     Dim cmd As SqlCommand
     Dim conn As SqlConnection
-    Dim cnstr As String = "data source = PEREZ; user = zerep; password = zerep; database = hms"
+    Dim cnstr As String = "data source = PEREZ; user = perez; password = perez; database = Perez - HMS database"
 
     Dim roomtype, price As String
     Private Sub checkio_Load(sender As Object, e As EventArgs) Handles MyBase.Load

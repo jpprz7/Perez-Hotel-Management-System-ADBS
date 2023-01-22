@@ -9,7 +9,7 @@ Public Class adminpage
     'database reference
     Dim cmd As SqlCommand
     Dim conn As SqlConnection
-    Dim cnstr As String = "data source = PEREZ; user = zerep; password = zerep; database = hms"
+    Dim cnstr As String = "data source = PEREZ; user = perez; password = perez; database = Perez - HMS database"
 
     'user controls reference
     Dim emprec = New emprecords
@@ -54,8 +54,8 @@ Public Class adminpage
         about.BringToFront()
     End Sub
 
-    Private Sub btnReservations_Click(sender As Object, e As EventArgs) Handles btnReservations.Click
-        reserv.bringtofront()
-
-    End Sub
+    'remove ko muna kasi walang backend yung website pang reservation
+    'Private Sub btnReservations_Click(sender As Object, e As EventArgs)
+    '   reserv.bringtofront()
+    'End Sub
 End Class

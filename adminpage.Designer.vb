@@ -30,7 +30,6 @@ Partial Class adminpage
         Me.btnAdmRooms = New System.Windows.Forms.Button()
         Me.btnAdmAbout = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.btnReservations = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnLogout
@@ -40,9 +39,9 @@ Partial Class adminpage
         Me.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnLogout.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogout.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.btnLogout.Location = New System.Drawing.Point(46, 615)
+        Me.btnLogout.Location = New System.Drawing.Point(46, 606)
         Me.btnLogout.Name = "btnLogout"
-        Me.btnLogout.Size = New System.Drawing.Size(227, 70)
+        Me.btnLogout.Size = New System.Drawing.Size(227, 94)
         Me.btnLogout.TabIndex = 6
         Me.btnLogout.Text = "Log out"
         Me.btnLogout.UseVisualStyleBackColor = False
@@ -62,9 +61,9 @@ Partial Class adminpage
         Me.btnEmpRecords.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnEmpRecords.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnEmpRecords.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.btnEmpRecords.Location = New System.Drawing.Point(46, 177)
+        Me.btnEmpRecords.Location = New System.Drawing.Point(46, 159)
         Me.btnEmpRecords.Name = "btnEmpRecords"
-        Me.btnEmpRecords.Size = New System.Drawing.Size(227, 70)
+        Me.btnEmpRecords.Size = New System.Drawing.Size(227, 94)
         Me.btnEmpRecords.TabIndex = 8
         Me.btnEmpRecords.Text = "Employee Records"
         Me.btnEmpRecords.UseVisualStyleBackColor = False
@@ -76,9 +75,9 @@ Partial Class adminpage
         Me.btnAdmLogs.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnAdmLogs.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAdmLogs.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.btnAdmLogs.Location = New System.Drawing.Point(46, 263)
+        Me.btnAdmLogs.Location = New System.Drawing.Point(46, 271)
         Me.btnAdmLogs.Name = "btnAdmLogs"
-        Me.btnAdmLogs.Size = New System.Drawing.Size(227, 70)
+        Me.btnAdmLogs.Size = New System.Drawing.Size(227, 94)
         Me.btnAdmLogs.TabIndex = 9
         Me.btnAdmLogs.Text = "Transaction Logs"
         Me.btnAdmLogs.UseVisualStyleBackColor = False
@@ -90,9 +89,9 @@ Partial Class adminpage
         Me.btnAdmRooms.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnAdmRooms.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAdmRooms.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.btnAdmRooms.Location = New System.Drawing.Point(46, 439)
+        Me.btnAdmRooms.Location = New System.Drawing.Point(46, 384)
         Me.btnAdmRooms.Name = "btnAdmRooms"
-        Me.btnAdmRooms.Size = New System.Drawing.Size(227, 70)
+        Me.btnAdmRooms.Size = New System.Drawing.Size(227, 94)
         Me.btnAdmRooms.TabIndex = 10
         Me.btnAdmRooms.Text = "View Rooms"
         Me.btnAdmRooms.UseVisualStyleBackColor = False
@@ -104,9 +103,9 @@ Partial Class adminpage
         Me.btnAdmAbout.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnAdmAbout.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAdmAbout.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.btnAdmAbout.Location = New System.Drawing.Point(46, 527)
+        Me.btnAdmAbout.Location = New System.Drawing.Point(46, 495)
         Me.btnAdmAbout.Name = "btnAdmAbout"
-        Me.btnAdmAbout.Size = New System.Drawing.Size(227, 70)
+        Me.btnAdmAbout.Size = New System.Drawing.Size(227, 94)
         Me.btnAdmAbout.TabIndex = 12
         Me.btnAdmAbout.Text = "About HMS"
         Me.btnAdmAbout.UseVisualStyleBackColor = False
@@ -123,20 +122,6 @@ Partial Class adminpage
         Me.Label1.TabIndex = 13
         Me.Label1.Text = "Logged in as: Hotel Administrator"
         '
-        'btnReservations
-        '
-        Me.btnReservations.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.btnReservations.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnReservations.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btnReservations.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnReservations.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.btnReservations.Location = New System.Drawing.Point(46, 350)
-        Me.btnReservations.Name = "btnReservations"
-        Me.btnReservations.Size = New System.Drawing.Size(227, 70)
-        Me.btnReservations.TabIndex = 14
-        Me.btnReservations.Text = "Reservations"
-        Me.btnReservations.UseVisualStyleBackColor = False
-        '
         'adminpage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -145,7 +130,6 @@ Partial Class adminpage
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1346, 725)
-        Me.Controls.Add(Me.btnReservations)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnAdmAbout)
         Me.Controls.Add(Me.btnAdmRooms)
@@ -172,5 +156,4 @@ Partial Class adminpage
     Friend WithEvents btnAdmRooms As Button
     Friend WithEvents btnAdmAbout As Button
     Friend WithEvents Label1 As Label
-    Friend WithEvents btnReservations As Button
 End Class

@@ -26,7 +26,6 @@ Partial Class staffpage
         Me.btnLogout = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.btnCheckIO = New System.Windows.Forms.Button()
-        Me.btnReservations = New System.Windows.Forms.Button()
         Me.btnStfLogs = New System.Windows.Forms.Button()
         Me.btnStfAbout = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -40,9 +39,9 @@ Partial Class staffpage
         Me.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnLogout.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogout.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.btnLogout.Location = New System.Drawing.Point(46, 615)
+        Me.btnLogout.Location = New System.Drawing.Point(46, 603)
         Me.btnLogout.Name = "btnLogout"
-        Me.btnLogout.Size = New System.Drawing.Size(227, 70)
+        Me.btnLogout.Size = New System.Drawing.Size(227, 94)
         Me.btnLogout.TabIndex = 6
         Me.btnLogout.Text = "Log out"
         Me.btnLogout.UseVisualStyleBackColor = False
@@ -62,26 +61,12 @@ Partial Class staffpage
         Me.btnCheckIO.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnCheckIO.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCheckIO.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.btnCheckIO.Location = New System.Drawing.Point(46, 164)
+        Me.btnCheckIO.Location = New System.Drawing.Point(46, 152)
         Me.btnCheckIO.Name = "btnCheckIO"
-        Me.btnCheckIO.Size = New System.Drawing.Size(227, 70)
+        Me.btnCheckIO.Size = New System.Drawing.Size(227, 94)
         Me.btnCheckIO.TabIndex = 8
         Me.btnCheckIO.Text = "Check-in/out"
         Me.btnCheckIO.UseVisualStyleBackColor = False
-        '
-        'btnReservations
-        '
-        Me.btnReservations.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(60, Byte), Integer))
-        Me.btnReservations.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.btnReservations.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.btnReservations.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnReservations.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.btnReservations.Location = New System.Drawing.Point(46, 344)
-        Me.btnReservations.Name = "btnReservations"
-        Me.btnReservations.Size = New System.Drawing.Size(227, 70)
-        Me.btnReservations.TabIndex = 9
-        Me.btnReservations.Text = "Reservations"
-        Me.btnReservations.UseVisualStyleBackColor = False
         '
         'btnStfLogs
         '
@@ -90,9 +75,9 @@ Partial Class staffpage
         Me.btnStfLogs.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnStfLogs.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnStfLogs.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.btnStfLogs.Location = New System.Drawing.Point(46, 434)
+        Me.btnStfLogs.Location = New System.Drawing.Point(46, 265)
         Me.btnStfLogs.Name = "btnStfLogs"
-        Me.btnStfLogs.Size = New System.Drawing.Size(227, 70)
+        Me.btnStfLogs.Size = New System.Drawing.Size(227, 94)
         Me.btnStfLogs.TabIndex = 10
         Me.btnStfLogs.Text = "Transaction Logs"
         Me.btnStfLogs.UseVisualStyleBackColor = False
@@ -104,9 +89,9 @@ Partial Class staffpage
         Me.btnStfAbout.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnStfAbout.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnStfAbout.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.btnStfAbout.Location = New System.Drawing.Point(46, 524)
+        Me.btnStfAbout.Location = New System.Drawing.Point(46, 491)
         Me.btnStfAbout.Name = "btnStfAbout"
-        Me.btnStfAbout.Size = New System.Drawing.Size(227, 70)
+        Me.btnStfAbout.Size = New System.Drawing.Size(227, 94)
         Me.btnStfAbout.TabIndex = 12
         Me.btnStfAbout.Text = "About HMS"
         Me.btnStfAbout.UseVisualStyleBackColor = False
@@ -130,11 +115,11 @@ Partial Class staffpage
         Me.btnStfRooms.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.btnStfRooms.Font = New System.Drawing.Font("Trebuchet MS", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnStfRooms.ForeColor = System.Drawing.Color.FromArgb(CType(CType(248, Byte), Integer), CType(CType(247, Byte), Integer), CType(CType(245, Byte), Integer))
-        Me.btnStfRooms.Location = New System.Drawing.Point(46, 254)
+        Me.btnStfRooms.Location = New System.Drawing.Point(46, 378)
         Me.btnStfRooms.Name = "btnStfRooms"
-        Me.btnStfRooms.Size = New System.Drawing.Size(227, 70)
+        Me.btnStfRooms.Size = New System.Drawing.Size(227, 94)
         Me.btnStfRooms.TabIndex = 14
-        Me.btnStfRooms.Text = "Rooms"
+        Me.btnStfRooms.Text = "View Rooms"
         Me.btnStfRooms.UseVisualStyleBackColor = False
         '
         'staffpage
@@ -145,11 +130,10 @@ Partial Class staffpage
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1346, 725)
+        Me.Controls.Add(Me.btnStfLogs)
         Me.Controls.Add(Me.btnStfRooms)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnStfAbout)
-        Me.Controls.Add(Me.btnStfLogs)
-        Me.Controls.Add(Me.btnReservations)
         Me.Controls.Add(Me.btnCheckIO)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.btnLogout)
@@ -168,7 +152,6 @@ Partial Class staffpage
     Friend WithEvents btnLogout As Button
     Friend WithEvents Panel1 As Panel
     Friend WithEvents btnCheckIO As Button
-    Friend WithEvents btnReservations As Button
     Friend WithEvents btnStfLogs As Button
     Friend WithEvents btnStfAbout As Button
     Friend WithEvents Label1 As Label

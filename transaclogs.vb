@@ -7,7 +7,7 @@ Imports System.Runtime.Remoting.Contexts
 
 Public Class trlogs
     Dim conn As SqlConnection
-    Dim cnstr As String = "data source = PEREZ; user = zerep; password = zerep; database = hms"
+    Dim cnstr As String = "data source = PEREZ; user = perez; password = perez; database = Perez - HMS database"
     Dim itemcol(999) As String
     Dim cmd As SqlCommand
     Dim da As SqlDataAdapter
@@ -35,12 +35,17 @@ Public Class trlogs
         End Try
         conn.Close()
     End Sub
+
+    Private Sub trlogs_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.Dock = DockStyle.Fill
+        Call CusInfo()
+    End Sub
+
     Private Sub ListView1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ListView1.SelectedIndexChanged
 
     End Sub
 
-    Private Sub trlogs_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        Me.Dock = DockStyle.Fill
+    Private Sub btnRefresh_Click(sender As Object, e As EventArgs) Handles btnRefresh.Click
         Call CusInfo()
     End Sub
 End Class
