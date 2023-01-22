@@ -9,7 +9,7 @@ Perez - HMS database.bacpac
 https://perez-hms-rooms.netlify.app/
 
 -- Sample demo:
-
+https://youtu.be/00VHb1FA28o
 
 -- Hotel Management System username/password:
 * hotel admin: admin/admin
